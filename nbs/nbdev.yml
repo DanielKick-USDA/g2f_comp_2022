@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "g2f_comp"
+  site-url: "https://danielkick.github.io/g2f_comp"
+  description: ""
+  repo-branch: main
+  repo-url: "https://github.com/danielkick/g2f_comp"

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#SBATCH --partition=atlas
+#SBATCH --job-name=BLUP-W
+#SBATCH --account=rover_pgru_wash
+#SBATCH --mail-user=Daniel.Kick@usda.gov
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --time=96:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+
+module load r
+Rscript BLUP.R
